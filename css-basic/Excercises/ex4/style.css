@@ -1,0 +1,24 @@
+.box{
+    padding: 25px;
+    border: 2px solid black;
+
+}
+#first{
+    background-color: aquamarine;
+}
+#second{
+    background-color: bisque;
+}
+.prompt{
+    padding-top: 25px;
+}
+button{
+    background-color: yellowgreen;
+}
+#container {
+    background-color: #e0e0e0;     /* A nice solid grey background */
+    
+    padding: 20px;                 /* Space inside the border around your text */
+    display: inline-block;         /* Tells the grey background to only cover current text/inputs */
+    
+}

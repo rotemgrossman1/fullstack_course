@@ -1,0 +1,15 @@
+#first{
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    color: blue;
+}
+#sec{
+    font-size: 35px;
+    font-family: 'Brush Script MT', cursive;;
+    color: greenyellow
+}
+#third{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+}
