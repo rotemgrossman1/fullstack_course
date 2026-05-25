@@ -1,0 +1,26 @@
+tr.header-row{
+    
+    background-color: #d40f0f;
+    font-weight: bold;
+}
+th{
+    padding: 15px;
+    text-align: center;
+}
+
+td{
+    border-bottom: 1px solid black;
+    text-align:center;
+    padding:10px;
+    background-color: aqua;
+}
+table{
+    border-collapse: collapse; 
+    margin: 10px;
+    border: 1px, solid, black;
+
+}
+
+div.bold{
+    font-weight: bold;
+}
