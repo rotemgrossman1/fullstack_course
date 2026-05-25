@@ -1,0 +1,16 @@
+.container{
+    margin-top: 100px;
+    display: flex;
+    width: 40%;
+    border: 2px solid deeppink;
+}
+.box{
+    border: 2px solid black;
+    height: 100px;
+    width: calc(100% / 3);
+    background-color: aquamarine;
+    
+}
+h1{
+    text-align: center;
+}
