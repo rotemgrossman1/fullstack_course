@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    border-bottom: 3px solid salmon;
+    border-top: 3px solid salmon;
+    padding: 20px;
+}
+
+h2{
+    border-bottom: 2px solid blueviolet;
+    border-top: 2px solid blueviolet;
+    padding: 5px;
+}
+
+body{
+    background-color: lightgrey;
+}
