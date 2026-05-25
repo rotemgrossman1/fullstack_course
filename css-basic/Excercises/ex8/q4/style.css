@@ -1,0 +1,87 @@
+/* Core Layout */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #03045e;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+h3 {
+    color: #6c757d;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    overflow: hidden; /* Keeps borders rounded */
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #495057;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+th, td {
+    padding: 14px 18px;
+    text-align: left;
+}
+
+/* Header Row */
+tr:first-child {
+    background-color: #03045e;
+    color: #ffffff;
+}
+
+tr:first-child th {
+    font-weight: 600;
+}
+
+/* Position Column Headers */
+tr th[scope="row"], tr th:first-child {
+    text-align: center;
+    font-weight: bold;
+    background-color: #f1f3f5;
+    color: #495057;
+    border-right: 1px solid #dee2e6;
+}
+
+/* Fix header text for position cell */
+tr:first-child th:first-child {
+    background-color: #023e8a;
+    color: white;
+}
+
+/* Row dividers and zebra striping */
+td, th {
+    border-bottom: 1px solid #dee2e6;
+}
+
+tr:nth-child(even) td {
+    background-color: #f8f9fa;
+}
+
+/* Hover effect */
+tr:not(:first-child):hover td {
+    background-color: #e9ecef;
+}

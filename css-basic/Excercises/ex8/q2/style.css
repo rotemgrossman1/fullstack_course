@@ -1,0 +1,57 @@
+/* Core Layout */
+body {
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Headers */
+h1 {
+    text-align: center;
+    background-color: #7fffd4; /* Aquamarine */
+    color: #2c3e50;
+    padding: 30px;
+    margin-top: 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    color: #4a148c;
+    border-bottom: 2px solid #9c27b0;
+    border-top: 2px solid #9c27b0;
+    padding: 10px 5px;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+/* Lists */
+ol {
+    padding-left: 20px;
+}
+
+ol > li {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+ol > li * {
+    font-weight: normal; /* Keeps nested text clean */
+}
+
+ul {
+    padding-left: 20px;
+    list-style-type: square;
+}
+
+ul li {
+    margin-bottom: 5px;
+    color: #555;
+}

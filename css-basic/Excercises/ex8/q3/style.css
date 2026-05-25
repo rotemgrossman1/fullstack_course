@@ -1,0 +1,88 @@
+/* Core Layout */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+h1 {
+    color: #1a252f;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 15px;
+}
+
+h2 {
+    color: #34495e;
+    margin-top: 40px;
+}
+
+/* Project Sections as Cards */
+section {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    overflow: hidden; /* Clearfix for floating images */
+}
+
+section h3 {
+    margin-top: 0;
+    color: #2c3e50;
+    font-size: 1.4rem;
+}
+
+/* Image styling */
+section img {
+    float: left;
+    max-width: 180px;
+    height: auto;
+    border-radius: 6px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+section p {
+    margin: 0;
+}
+
+/* Links / Buttons */
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+/* Contact Info & Footer */
+hr {
+    border: 0;
+    height: 1px;
+    background: #e0e0e0;
+    margin: 40px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a[href="#top"] {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
