@@ -1,0 +1,40 @@
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: max-content;     
+    max-width: 100%;
+    
+}
+
+.container img {
+    max-width: 100%;  
+    height: auto;     
+    display: block;   
+    margin: 0 auto;
+    border: 3px solid blueviolet;
+}
+
+.corner{
+    position: absolute;
+    color: white;
+}
+
+.topl{
+    top: 0px;
+    left: 0px;
+}
+
+.topr{
+    top: 0px;
+    right: 0px;
+}
+
+.bottoml{
+    bottom: 0px;
+    left: 0px;
+}
+
+.bottomr{
+    bottom: 0px;
+    right: 0px;
+}
