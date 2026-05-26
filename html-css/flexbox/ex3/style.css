@@ -1,0 +1,30 @@
+
+
+
+div.book {
+ display: flex;
+  border: solid navy;
+  width:500px;
+  height: 500px;
+}
+
+div.box{
+    display:flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    align-items: center;
+    justify-content: center;
+    border-left: solid navy;
+    padding: 15px
+    
+}
+div.circle{
+    width:100px;
+    height:100px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+div .bullcrap{
+    text-align: center;
+}
