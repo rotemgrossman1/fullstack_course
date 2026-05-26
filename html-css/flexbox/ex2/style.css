@@ -1,0 +1,38 @@
+
+
+.row {
+  display: flex;
+}
+
+.column {
+  width: calc(100% / 3);
+  /* flex: 1; */
+  /* margin: 5px; */
+}
+
+div.content {
+ 
+  border: solid navy;
+  background-color: aqua;
+  text-align: center;
+  padding: 50px 0;
+  margin: 5px;
+}
+
+div.even{
+    flex-grow:1;
+    flex-basis:0;
+}
+
+#first{
+    flex-grow:1;
+    flex-basis:0;
+}
+#sec{
+    flex-grow:2;
+    flex-basis:0;
+}
+#thired{
+    flex-grow:2;
+    flex-basis:0;
+}
