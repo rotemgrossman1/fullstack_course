@@ -1,0 +1,65 @@
+
+
+
+div.book {
+ display: flex;
+ flex-direction: column;
+  border: solid navy;
+  width:500px;
+  height: 500px;
+}
+
+div.box{
+    display:flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid navy;
+    padding: 50px;
+    flex-direction:column;
+    
+}
+div .box:last-child{
+    border-bottom: none;
+    padding: 30px;
+}
+div.circle{
+    width:100px;
+    height:100px;
+    background-color: blue;
+    border-radius: 50%;
+    margin: 20px;
+}
+div.container{
+    display:flex;
+    width: 100%;
+    align-items: center;
+}
+div.lefthalf{
+    flex-grow:1;
+    flex-basis:0;
+    display: flex;
+    justify-content: left;
+}
+div .righthalf{
+    flex-grow:1;
+    flex-basis:0;
+    display: flex;
+    justify-content: left;
+}
+div.line{
+    display: flex;
+
+    top: 350;
+    width:33%;
+    height:20px;
+    background-color: blue;
+    margin:2px;
+    
+}
+
+
+div .bullcrap{
+    text-align: center;
+}
