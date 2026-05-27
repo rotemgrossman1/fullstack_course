@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #5b75f7, #6c40a7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 16px;
+}
+.line{
+    display: flex;
+    width: 100%;
+    gap:10px;
+}
+.q{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.checkbox input[type="checkbox"] {
+    width: auto;
+    margin: 0;
+}
+input{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+.component{
+    flex:1;/*this means it will take up all available space */
+    margin: 5px;
+    
+}
+.checkbox-item{
+    display: flex;
+    margin: 5px;
+}
+.checkbox-container{
+    display: flex;
+}
+.checkbox input[type="checkbox"] {
+    width: auto;
+    margin: 0;
+    cursor: pointer;
+}
+/* Update the container holding the buttons */
+.line-buttons {
+    display: flex;
+    justify-content: space-between; /* MAGIC HAPPENS HERE: Pushes items to opposite ends */
+    width: 100%;
+    margin-top: 20px;               /* Adds a nice gap below the checkboxes */
+}
+
+button {
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Specific style for Save Draft */
+.save {
+    background-color: #f0f0f0;     /* Light gray background like your screenshot */
+    color: #333;
+}
+
+/* Specific style for Send Message */
+.send {
+    background-color: #00d2ff;     /* Bright blue/cyan background like your screenshot */
+    color: white;
+}
+input, select{
+    padding: 8px;
+    width: 100%;
+    background-color: white;
+    font-family: inherit;
+    font-size: 14px;
+    /* height: 36px; */
+
+}
+header{
+    margin-bottom: 20px;
+    font-size: small;
+    text-align: center;
+}
+h1{
+    margin-bottom: 5px;
+}
