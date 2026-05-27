@@ -1,0 +1,33 @@
+/* <!-- Create a page with a heading and paragraph. Implement the following responsive typography:
+
+Desktop (>900px): Heading 48px, Paragraph 18px
+Tablet (600px-900px): Heading 36px, Paragraph 16px
+Mobile (<600px): Heading 24px, Paragraph 14px --> */
+
+header{
+  font-size: 24px;
+}
+p{
+    font-size: 14px;
+}
+
+/* Tablet 601px - 900px */
+@media (min-width: 600px) {
+    header{
+        font-size: 36px;
+    }
+    p{
+        font-size: 16px;
+    }
+}
+
+/* desktop over 900px */
+@media (min-width: 901px) {
+    header{
+        font-size: 48px;
+    }
+    p{
+        font-size: 18px;
+    }
+}
+
