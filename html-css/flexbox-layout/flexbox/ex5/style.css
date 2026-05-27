@@ -29,20 +29,18 @@ body {
 
 
 .flex-column.stacked {
-  flex-direction: column;
-  
-  
+  flex-direction: column; 
 }
 
 
 .content {
   background-color: #6495ed;
   border-radius: 2px;
-  margin:15px;
+  margin:5px;
 }
 
 .flex-column.stacked .content {
-  height: 165px; 
+  height: 175px; 
 }
 
 .content.large {
