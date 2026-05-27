@@ -1,11 +1,5 @@
 body {
   background-color: #e0e0e0;
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
- 
 }
 
 .wrapper {
@@ -24,7 +18,7 @@ body {
 
 .flex-container {
   display: flex;
-  gap: 15px; 
+  
 }
 
 
@@ -36,17 +30,19 @@ body {
 
 .flex-column.stacked {
   flex-direction: column;
-  gap: 15px; 
+  
+  
 }
 
 
 .content {
   background-color: #6495ed;
   border-radius: 2px;
+  margin:15px;
 }
 
 .flex-column.stacked .content {
-  height: 200px; 
+  height: 165px; 
 }
 
 .content.large {
