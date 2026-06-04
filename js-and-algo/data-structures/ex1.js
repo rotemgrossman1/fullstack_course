@@ -27,6 +27,10 @@ class UniqueArray {
         return item in this.lookup;
     }
     add(item) {
+        if(typeof item === "object" || typeof item === "function"){
+            console.log('cannot add objects')
+            return
+        }
         if(this.exists(item)){
             console.log("added already")
         }
@@ -38,6 +42,9 @@ class UniqueArray {
         }
     }
     get(index){
+        if (index < 0 || index >= this.uniqueLength) {
+            return -1;
+        }
         return this.uniqueStuff[index]
     }
 
@@ -51,9 +58,11 @@ class UniqueArray {
 }
 
 const uniqueStuff = new UniqueArray()
+
 uniqueStuff.add("toy")
 uniqueStuff.showAll() //prints ["toy"]
-uniqueStuff.add("toy")
+uniqueStuff.add([1,2,3])
+uniqueStuff.add([1,2,'3'])
 uniqueStuff.showAll() //prints ["toy"]
 uniqueStuff.exists("toy") //returns true
 uniqueStuff.add("poster")
