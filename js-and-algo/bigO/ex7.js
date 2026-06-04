@@ -1,6 +1,5 @@
 class Employees {
     constructor() {
-      
         this.workers = new Map();
     }
 
