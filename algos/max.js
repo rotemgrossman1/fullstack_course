@@ -48,3 +48,32 @@ function reverseString(str) {
 }
 console.log(reverseString('algorithm'))
 console.log(reverseString('hello'))
+
+
+//#3
+// Given a string, return the number of vowels (a, e, i, o, u) it contains.
+// Treat uppercase and lowercase the same.
+//
+// Constraints: input may contain spaces and mixed case. Vowels are only a e i o u.
+//
+// Hint: a string of vowels makes the membership check clean —
+// check if each character is inside it.
+//
+// Input:  "hello world" →  Output: 3
+// Input:  "Algorithm"   →  Output: 3
+
+function countVowels(str) {
+  let count = 0;
+  // for(let i = 0; i < str.length; i++){
+  //   if(str[i] === 'a' || str[i] === 'e' || str[i] === 'i' || str[i] === 'o' || str[i] === 'u' ||
+  //      str[i] === 'A' || str[i] === 'E' || str[i] === 'I' || str[i] === 'O' || str[i] === 'U'){
+  //       count++
+  //   }
+  // }
+  let strArr = str.split('');
+  
+
+  return count
+}
+console.log(countVowels('hello world'))
+console.log(countVowels('Algorithm'))
