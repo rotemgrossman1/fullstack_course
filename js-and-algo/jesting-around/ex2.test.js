@@ -9,3 +9,9 @@ test("should remove at least one element from the array `arr`", ()=> {
     expect(cutDownArr.length).toBeLessThan(originalLength)
     
 })
+//ex5 additional test, check for non array inputs
+test("check for non array inputs", ()=> {
+    expect(removeAtLeastOne("not an array")).toEqual([])
+    expect(removeAtLeastOne(null)).toEqual([])
+    expect(removeAtLeastOne(undefined)).toEqual([])
+})
