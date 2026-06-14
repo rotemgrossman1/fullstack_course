@@ -1,0 +1,72 @@
+/* Reset and center everything nicely on the screen */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Create a neat, centered card for the app */
+.container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  width: 100%;
+  max-width: 360px;
+}
+
+/* Style the text input */
+input {
+  width: 80%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 2px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+/* Highlight the input when clicked */
+input:focus {
+  border-color: #4a90e2;
+}
+
+/* Style the "Check" button */
+button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+/* Give the button subtle life on hover and click */
+button:hover {
+  background-color: #357abd;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* Style the message output area */
+#message-to-user {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333333;
+  min-height: 24px; /* Keeps space open even when empty */
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #fafafa;
+}
