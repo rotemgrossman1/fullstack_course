@@ -1,0 +1,99 @@
+/* Apply a clean font and center everything on the page */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* The main form container */
+form {
+    background-color: #1abc9c; /* That distinct teal color */
+    padding: 30px;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    
+    /* Layout using Flexbox for a clean vertical stack */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+}
+
+/* Group container to put Salary and Birthday side-by-side */
+.row-group {
+    display: flex;
+    gap: 15px;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 5px;
+}
+
+/* Styling the labels to match the dark teal text */
+label {
+    color: #0e3d34;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+/* Styling the input fields with that inner shadow effect */
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #ffffff;
+    color: #333;
+    /* Inset box shadow creates that "sunken" field effect from the image */
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.2); 
+    outline: none;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* Focus effect for better UX */
+input:focus {
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.3), 0 0 4px rgba(255,255,255,0.8);
+}
+
+/* Button placement and styling */
+button {
+    align-self: flex-end;
+    background-color: #148f77; /* Darker teal */
+    color: #0e3d34;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+    transition: background-color 0.2s, transform 0.1s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #117a65;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* Error container styling */
+#error-container {
+    color: #c0392b; /* A deep red that contrasts nicely with the teal */
+    font-weight: bold;
+    font-size: 0.95rem;
+    margin-top: 10px;
+    min-height: 20px; /* Prevents the form from jumping when errors appear */
+}
